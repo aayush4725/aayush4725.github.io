@@ -1,11 +1,10 @@
-     <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" style="height: auto; min-height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
 
@@ -14,8 +13,7 @@
         <div class="hero-overlay">
             <!-- Navbar -->
             <nav>
-                <div class="logo">  
-                    <!-- https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg -->
+                <div class="logo">
                     <img src="assets/logo.svg" alt="Netflix Logo">
                 </div>
                 <div class="nav-right">
@@ -36,7 +34,8 @@
                 <h1 class="hero-title">Unlimited movies, TV shows and more</h1>
                 <p class="hero-subtitle">Starts at ₹149. Cancel at any time.</p>
                 <p class="hero-text">Ready to watch? Enter your email to create or restart your membership.</p>
-                
+                <p class="live-count">🔴 <span id="liveNumber">0</span> people streaming right now</p>
+
                 <div class="email-form">
                     <div class="input-wrapper">
                         <input type="email" id="email" class="email-input" placeholder=" " />
@@ -48,7 +47,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="hero-gradient"></div>
     </div>
 
@@ -60,7 +59,7 @@
     <!-- Trending Now Section -->
     <div class="trending-section">
         <h2 class="section-title">Trending Now</h2>
-        
+
         <div class="trending-container">
             <div class="trending-scroll">
                 <div class="movie-card">
@@ -145,10 +144,10 @@
     <!-- FAQ Section -->
     <div class="faq-section">
         <h2 class="section-title">Frequently Asked Questions</h2>
-        
+
         <div class="faq-container">
             <div class="faq-item">
-                <button class="faq-button" onclick="this.parentElement.classList.toggle('active')">
+                <button class="faq-button">
                     <span>What is Netflix?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -158,7 +157,7 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-button" onclick="this.parentElement.classList.toggle('active')">
+                <button class="faq-button">
                     <span>How much does Netflix cost?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -168,7 +167,7 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-button" onclick="this.parentElement.classList.toggle('active')">
+                <button class="faq-button">
                     <span>Where can I watch?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -178,7 +177,7 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-button" onclick="this.parentElement.classList.toggle('active')">
+                <button class="faq-button">
                     <span>How do I cancel?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -188,7 +187,7 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-button" onclick="this.parentElement.classList.toggle('active')">
+                <button class="faq-button">
                     <span>What can I watch on Netflix?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -198,7 +197,7 @@
             </div>
 
             <div class="faq-item">
-               
+                <button class="faq-button">
                     <span>Is Netflix good for kids?</span>
                     <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </button>
@@ -226,7 +225,7 @@
     <footer>
         <div class="footer-container">
             <p style="margin-bottom: 32px;">Questions? Call <a href="#" class="footer-link">000-800-919-1743</a></p>
-            
+
             <div class="footer-links">
                 <div class="footer-column">
                     <a href="#" class="footer-link">FAQ</a>
@@ -263,12 +262,10 @@
                     <span class="caret-icon">▼</span>
                 </div>
             </div>
-            
+
             <p style="font-size: 14px;">Netflix India</p>
         </div>
     </footer>
     <script src="script.js"></script>
-</body>
-
 </body>
 </html>
